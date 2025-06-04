@@ -1,14 +1,12 @@
-// src/components/MovieItem.jsx
-function MovieItem({ title, year, genre }) {
+function MovieItem({ title, year, genre, description }) {
   return (
     <div className="movie-item">
       <h2>{title}</h2>
-      <p>Year: {year}</p>
-      <p>Genre: {genre}</p>
+      <p><strong>Year:</strong> {year}</p>
+      <p><strong>Genre:</strong> {genre}</p>
+      <p><strong>Description:</strong> {description}</p>
     </div>
   );
 }
 
 export default MovieItem;
-
-
