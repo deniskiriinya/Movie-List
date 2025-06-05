@@ -28,7 +28,14 @@ function App() {
     year: 2021,
     genre: "Sci-Fi",
     description: "Neo returns to the Matrix to confront a new threat and uncover the truth about his past."
-  }
+  },
+ {
+    title: "Polar X",
+    year: 2006,
+    genre: "Romance",
+    description: "An assasin makes love with a lady that she is assigned to kill, but she falls in love with him and they run away together."
+  },
+  
 ]);
 
 
